@@ -3,12 +3,17 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 21%
+    right: 10%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
+    right: 70%
 
 @keyframes float1
   0%
@@ -18,6 +23,10 @@
   
 .banner-principal .tarjeta
   background-position: left 50% !important
+  @media screen and ( max-width: $bp-max-lg )
+    background-image: url("../assets/curso/portada/fondo-banner-principal-tb.png") !important
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-mv.png") !important
 
 .banner-principal__row .banner-principal__img
   width: 400px !important  
@@ -30,3 +39,101 @@
 
 figcaption
   font-weight: normal
+
+.bg
+  &-c3 
+    background-color: #FD9826
+    background-repeat: repeat-x
+    background-position: center center // centro horizontal y vertical
+    height: 36px
+    display: flex
+    align-items: center // centra el contenido verticalmente
+    justify-content: center // opcional si quieres centrar el contenido horizontal también
+
+    @media screen and (max-width: $bp-max-sm)
+      background-repeat: repeat
+      background-position: center top // ajusta para móvil si prefieres
+  &-intro1
+    background-image: url(../assets/curso/intro/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-intro2 
+    background-color: #E6DCFB
+  &-t1-1 
+    background-color: #F2ECFD
+    border-radius: 10px
+  &-t1-2 
+    background-color: #EDF7FE
+  &-t1-3 
+    background-color: #BCE0FC
+  &-t1-4
+    background-color: #BCE0FC
+    border-radius: 0px !important
+  &-t1-5
+    background-color: #E6DCFB
+    border-radius: 0px !important
+  &-t1-6 
+    background-color: #F2ECFD
+  &-t1-7 
+    background-color: #DDEFFD
+  &-t1-8 
+    background-color: #E8E8E8
+  &-t2-1 
+    background-image: url(../assets/curso/tema2/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t2-2 
+    background-color: #F3F0EA
+    border-radius: 10px
+  &-t2-3 
+    background-color: #E1D6F5
+
+
+//tablas
+
+.tabla-scroll 
+  overflow-x: auto
+  max-width: 100%
+
+table
+  width: 100%
+  min-width: 300px
+  border-collapse: collapse
+
+
+th, td 
+  padding: 8px
+  text-align: left
+  border: 1px solid #ddd
+
+.table.table-bordered
+  width: 100%
+  border-collapse: collapse
+
+  th, td 
+    padding: 12px
+    text-align: left
+    border: 1px solid #ddd
+    min-height: 40px
+    height: 100%
+
+  tbody tr
+    height: 50px
+
+@media (max-width: 768px)
+  .tabla-scroll
+    overflow-x: auto
+    display: block
+  
+  table
+    min-width: 600px
+
+  th, td 
+    white-space: normal
+
+//FIN TABLAS//
+
+.bloque-texto-b.color-secundario:before
+  background-color: #DDEFFD
