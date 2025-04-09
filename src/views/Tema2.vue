@@ -105,8 +105,8 @@
     p.mt-4 #[b Ejemplo 1]
 
     .row.justify-content-center.bg-t1-6
-      .p-5
-        p El 1 de junio del año 20X1, la empresa ABC, adquiere un contrato de arrendamiento.  Paga por anticipado tres meses de arrendamiento por valor de $3.000.000, más IVA tarifa general.
+      .p-lg-5
+        p.mt-4.mt-md-0 El 1 de junio del año 20X1, la empresa ABC, adquiere un contrato de arrendamiento.  Paga por anticipado tres meses de arrendamiento por valor de $3.000.000, más IVA tarifa general.
 
         .row.justify-content-center
           .col-lg-10.mt-4
@@ -116,7 +116,7 @@
                   .col-xl-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                     figure.m-0.p-0.w-100.h-100.d-flex
                       img(src='@/assets/curso/tema2/img7.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
-                  .col-xl.p-5
+                  .col-xl.p-lg-5
                     .p-5.w-100.align-items-cente
                       p.mb-0 Valor Anticipo ....$3.000.000
                       p.mb-0 Más IVA..............$570 .000
@@ -130,47 +130,48 @@
               h5 Tabla 6.
               span  Reconocimiento contable de arrendamiento pagado por anticipado
 
+            .tabla-scroll
+              table
+                thead
+                  tr(style="background-color: #FD9826")
+                    th(style="width: 50%") Cuenta
+                    th(style="width: 25%") Debe
+                    th(style="width: 25%") Haber
+                tbody
+                  tr(style="background-color: #F6F6F6")
+                    td #[b Gastos Arrendamientos]
+                    td 3.000.000
+                    td 
+                  tr(style="background-color: #FFF")
+                    td #[b Activo por Impuestos]
+                    td 570.000
+                    td 
+                  tr(style="background-color: #F6F6F6")
+                    td #[b Cuentas por Pagar]
+                    td 
+                    td 3.570.000
 
-            table
-              thead
-                tr(style="background-color: #FD9826")
-                  th(style="width: 50%") Cuenta
-                  th(style="width: 25%") Debe
-                  th(style="width: 25%") Haber
-              tbody
-                tr(style="background-color: #F6F6F6")
-                  td #[b Gastos Arrendamientos]
-                  td 3.000.000
-                  td 
-                tr(style="background-color: #FFF")
-                  td #[b Activo por Impuestos]
-                  td 570.000
-                  td 
-                tr(style="background-color: #F6F6F6")
-                  td #[b Cuentas por Pagar]
-                  td 
-                  td 3.570.000
-
-          .col-lg-6
+          .col-lg-6.mt-4.md-0
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 7. 
               span Registro contable - Pago de arrendamiento previamente reconocido
 
-            table
-              thead
-                tr(style="background-color: #FD9826")
-                  th(style="width: 50%") Cuenta
-                  th(style="width: 25%") Debe
-                  th(style="width: 25%") Haber
-              tbody
-                tr(style="background-color: #F6F6F6")
-                  td #[b Cuentas por pagar]
-                  td 3.570.000
-                  td 
-                tr(style="background-color: #FFF")
-                  td #[b Activo- Bancos Nacionales]
-                  td 
-                  td 3.570.000
+            .tabla-scroll
+              table
+                thead
+                  tr(style="background-color: #FD9826")
+                    th(style="width: 50%") Cuenta
+                    th(style="width: 25%") Debe
+                    th(style="width: 25%") Haber
+                tbody
+                  tr(style="background-color: #F6F6F6")
+                    td #[b Cuentas por pagar]
+                    td 3.570.000
+                    td 
+                  tr(style="background-color: #FFF")
+                    td #[b Activo- Bancos Nacionales]
+                    td 
+                    td 3.570.000
 
         p.p-4.bg-t1-7.mt-4 Nota: vale la pena aclarar que, aunque la norma internacional indica que todos los desembolsos deben reconocerse como gasto, queda a criterio de la entidad si, esta debe ser registrada como gastos o clasificarse como gastos pagados por anticipado.
 
@@ -178,8 +179,8 @@
     p.mt-4 #[b Ejemplo 2]
 
     .row.justify-content-center.bg-t1-6
-      .p-5
-        p El 1 de enero de 20xx la empresa SABACO Ltda., adquirió una póliza de seguros contra incendios por 1 año, por valor de $4.000.000 mediante cheque girado del banco Davivienda.
+      .p-lg-5
+        p.mt-4.md-0 El 1 de enero de 20xx la empresa SABACO Ltda., adquirió una póliza de seguros contra incendios por 1 año, por valor de $4.000.000 mediante cheque girado del banco Davivienda.
 
         p #[b Manejo de anticipos]
 
@@ -191,43 +192,43 @@
               h5 Tabla 8. 
               span  Reconocimiento compra póliza de seguros
 
+            .tabla-scroll
+              table
+                thead
+                  tr(style="background-color: #FD9826")
+                    th(style="width: 50%") Cuenta
+                    th(style="width: 25%") Debe
+                    th(style="width: 25%") Haber
+                tbody
+                  tr(style="background-color: #F6F6F6")
+                    td #[b Activo- Póliza de Seguros- Incendios]
+                    td 4.000.000
+                    td 
+                  tr(style="background-color: #FFF")
+                    td #[b Cuentas por Pagar]
+                    td 
+                    td 4.000.000
 
-            table
-              thead
-                tr(style="background-color: #FD9826")
-                  th(style="width: 50%") Cuenta
-                  th(style="width: 25%") Debe
-                  th(style="width: 25%") Haber
-              tbody
-                tr(style="background-color: #F6F6F6")
-                  td #[b Activo- Póliza de Seguros- Incendios]
-                  td 4.000.000
-                  td 
-                tr(style="background-color: #FFF")
-                  td #[b Cuentas por Pagar]
-                  td 
-                  td 4.000.000
-
-          .col-lg-6
+          .col-lg-6.mt-4.md-0
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 9. 
               span Momento del pago
-
-            table
-              thead
-                tr(style="background-color: #FD9826")
-                  th(style="width: 50%") Cuenta
-                  th(style="width: 25%") Debe
-                  th(style="width: 25%") Haber
-              tbody
-                tr(style="background-color: #F6F6F6")
-                  td #[b Cuentas por pagar]
-                  td 4.000.000
-                  td 
-                tr(style="background-color: #FFF")
-                  td #[b Activo- Bancos Nacionales]
-                  td 
-                  td 4.000.000
+            .tabla-scroll
+              table
+                thead
+                  tr(style="background-color: #FD9826")
+                    th(style="width: 50%") Cuenta
+                    th(style="width: 25%") Debe
+                    th(style="width: 25%") Haber
+                tbody
+                  tr(style="background-color: #F6F6F6")
+                    td #[b Cuentas por pagar]
+                    td 4.000.000
+                    td 
+                  tr(style="background-color: #FFF")
+                    td #[b Activo- Bancos Nacionales]
+                    td 
+                    td 4.000.000
 
         p.mt-4 La empresa mensualmente debe hacer un asiento de ajuste para reconocer en el estado de resultados el gasto por póliza de seguros de cada periodo así: 
 
@@ -236,22 +237,22 @@
               span Registro contable - Amortización mensual de póliza de seguros
         .row.justify-content-center.mt-4.align-items-center
           .col-lg-8
-
-            table
-              thead
-                tr(style="background-color: #FD9826")
-                  th(style="width: 60%") Cuenta
-                  th(style="width: 20%") Debe
-                  th(style="width: 20%") Haber
-              tbody
-                tr(style="background-color: #F6F6F6")
-                  td #[b Gasto - Póliza de Seguros- Incendios]
-                  td 333.333
-                  td 
-                tr(style="background-color: #FFF")
-                  td #[b Activo Póliza de Seguros- Incendios]
-                  td 
-                  td 333.333
+            .tabla-scroll
+              table
+                thead
+                  tr(style="background-color: #FD9826")
+                    th(style="width: 60%") Cuenta
+                    th(style="width: 20%") Debe
+                    th(style="width: 20%") Haber
+                tbody
+                  tr(style="background-color: #F6F6F6")
+                    td #[b Gasto - Póliza de Seguros- Incendios]
+                    td 333.333
+                    td 
+                  tr(style="background-color: #FFF")
+                    td #[b Activo Póliza de Seguros- Incendios]
+                    td 
+                    td 333.333
 
           .col-lg-4.d-none.d-lg-block
             figure

@@ -36,13 +36,40 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Intangibles y Diferidos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Marco normativo',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo:
+              'Importancia de los intangibles dentro de las organizaciones',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Clasificación de Activos Intangibles',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Reconocimiento y medición de Intangibles',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo:
+              'Generalidades de intangibles: vida útil, periodo, método de amortización y valor razonable.',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Política contable de intangibles',
+            hash: 't_1_6',
           },
         ],
       },
@@ -50,14 +77,30 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Diferidos',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto de cargos diferidos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Concepto de gastos pagados por anticipado',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Reconocimiento y medición',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Retiros, enajenaciones y revelación',
+            hash: 't_2_4',
+          },
+        ],
       },
     ],
     subMenu: [

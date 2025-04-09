@@ -138,7 +138,7 @@
     p.mt-4 #[b Ejemplo]
 
     .row.justify-content-center.bg-t1-6
-      .p-5
+      .p-lg-5
         p La compañía SABACO Ltda., el 1 de enero del año 20X1, adquiere una patente farmacéutica, a la que le queda una vida útil de 6 años, por $4.500.000.  En la misma fecha adquiere una marca comercial por $2.500.000. 
         p A principios del año 20X3 la entidad analiza que, la marca ha sufrido un deterioro del 30% de su valor y que dejará de tener valor comercial y por tanto dejará de producir flujos de efectivo dentro de 4 años.
 
@@ -153,47 +153,48 @@
               h5 Tabla 1.
               span Registro contable - Causación / Reconocimiento
 
+            .tabla-scroll
+              table.table.table-bordered
+                thead
+                  tr
+                    th.htb Cuenta
+                    th.htb Debe
+                    th.htb Haber
+                tbody
+                  tr(style="background-color: #F6F6F6")
+                    td #[b Propiedad Industrial Patente]
+                    td 4.500
+                    td 
+                  tr(style="background-color: #FFF")
+                    td #[b Propiedad Industrial Patente]
+                    td 2.500
+                    td 
+                  tr(style="background-color: #F6F6F6")
+                    td #[b Costos y Gastos por pagar]
+                    td 
+                    td 7.000.0
 
-            table
-              thead
-                tr(style="background-color: #FD9826")
-                  th Cuenta
-                  th Debe
-                  th Haber
-              tbody
-                tr(style="background-color: #F6F6F6")
-                  td #[b Propiedad Industrial Patente]
-                  td 4.500
-                  td 
-                tr(style="background-color: #FFF")
-                  td #[b Propiedad Industrial Patente]
-                  td 2.500
-                  td 
-                tr(style="background-color: #F6F6F6")
-                  td #[b Costos y Gastos por pagar]
-                  td 
-                  td 7.000.0
-
-          .col-lg-6
+          .col-lg-6.mt-4
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 2. 
               span Registro contable - Pago
 
-            table
-              thead
-                tr(style="background-color: #FD9826")
-                  th Cuenta
-                  th Debe
-                  th Haber
-              tbody
-                tr(style="background-color: #F6F6F6")
-                  td #[b Costos y Gastos por pagar]
-                  td 7.000
-                  td 
-                tr(style="background-color: #FFF")
-                  td #[b Efectivo y Equivalentes a Efectivo- Bancos]
-                  td 
-                  td 7.000.0
+            .tabla-scroll
+              table
+                thead
+                  tr(style="background-color: #FD9826")
+                    th Cuenta
+                    th Debe
+                    th Haber
+                tbody
+                  tr(style="background-color: #F6F6F6")
+                    td #[b Costos y Gastos por pagar]
+                    td 7.000
+                    td 
+                  tr(style="background-color: #FFF")
+                    td #[b Efectivo y Equivalentes a Efectivo- Bancos]
+                    td 
+                    td 7.000.0
 
         p.mt-4 #[b 2. Diciembre 31 del año  20X1, se registra la amortización del activo con vida útil definida]
         p Nota: de la misma forma aplica para el año 20X2 y sucesivos.
@@ -203,22 +204,22 @@
               span Registro contable - Amortización Intangible: Patente (mensual por 4 años)
         .row.justify-content-center.mt-4.align-items-center
           .col-lg-7
-
-            table
-              thead
-                tr(style="background-color: #FD9826")
-                  th(style="width: 60%") Cuenta
-                  th(style="width: 20%") Debe
-                  th(style="width: 20%") Haber
-              tbody
-                tr(style="background-color: #F6F6F6")
-                  td #[b Gastos Amortización Propiedad Industrial Patente]
-                  td 93,75
-                  td 
-                tr(style="background-color: #FFF")
-                  td #[b Efectivo y Equivalentes a Efectivo]
-                  td 
+            .tabla-scroll
+              table
+                thead
+                  tr(style="background-color: #FD9826")
+                    th(style="width: 60%") Cuenta
+                    th(style="width: 20%") Debe
+                    th(style="width: 20%") Haber
+                tbody
+                  tr(style="background-color: #F6F6F6")
+                    td #[b Gastos Amortización Propiedad Industrial Patente]
                     td 93,75
+                    td 
+                  tr(style="background-color: #FFF")
+                    td #[b Efectivo y Equivalentes a Efectivo]
+                    td 
+                      td 93,75
 
           .col-lg-5.d-none.d-lg-block
             figure
@@ -232,22 +233,22 @@
               span 
         .row.justify-content-center.mt-4.align-items-center
           .col-lg-8
-
-            table
-              thead
-                tr(style="background-color: #FD9826")
-                  th(style="width: 60%") Cuenta
-                  th(style="width: 20%") Debe
-                  th(style="width: 20%") Haber
-              tbody
-                tr(style="background-color: #F6F6F6")
-                  td #[b Pérdidas por deterioro del activo Intangible(2500*0.3)]
-                  td 750
-                  td 
-                tr(style="background-color: #FFF")
-                  td #[b Deterioro de valor de Propiedad Industrial Marcas]
-                  td 
+            .tabla-scroll
+              table
+                thead
+                  tr(style="background-color: #FD9826")
+                    th(style="width: 60%") Cuenta
+                    th(style="width: 20%") Debe
+                    th(style="width: 20%") Haber
+                tbody
+                  tr(style="background-color: #F6F6F6")
+                    td #[b Pérdidas por deterioro del activo Intangible(2500*0.3)]
                     td 750
+                    td 
+                  tr(style="background-color: #FFF")
+                    td #[b Deterioro de valor de Propiedad Industrial Marcas]
+                    td 
+                      td 750
 
           .col-lg-4.d-none.d-lg-block
             figure
@@ -272,21 +273,22 @@
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 5. 
                 span 
-              table
-                thead
-                  tr(style="background-color: #FD9826")
-                    th(style="width: 60%") Cuenta
-                    th(style="width: 20%") Debe
-                    th(style="width: 20%") Haber
-                tbody
-                  tr(style="background-color: #F6F6F6")
-                    td #[b Gastos Amortización Propiedad Industrial Patente(4500/4)]
-                    td 93,75 
-                    td 
-                  tr(style="background-color: #FFF")
-                    td #[b Efectivo y Equivalentes a Efectivo]
-                    td 
-                    td 93,75 
+              .tabla-scroll
+                table
+                  thead
+                    tr(style="background-color: #FD9826")
+                      th(style="width: 60%") Cuenta
+                      th(style="width: 20%") Debe
+                      th(style="width: 20%") Haber
+                  tbody
+                    tr(style="background-color: #F6F6F6")
+                      td #[b Gastos Amortización Propiedad Industrial Patente(4500/4)]
+                      td 93,75 
+                      td 
+                    tr(style="background-color: #FFF")
+                      td #[b Efectivo y Equivalentes a Efectivo]
+                      td 
+                      td 93,75 
 
           p.mt-4 Vale la pena recordar que, la amortización de los intangibles inicia cuando el activo esté a disposición y en condiciones de uso. 
           p El método de amortización utilizado refleja el patrón de agotamiento esperado, por parte de la entidad.  El cargo por amortización de cada período se reconocerá en el resultado del periodo, según indicaciones de la NIC 38.
@@ -316,7 +318,7 @@
               .col-xl-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
                   img(src='@/assets/curso/tema1/img10.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
-              .col-xl.p-5
+              .col-xl.p-lg-5
                 .p-5.w-100.align-items-center
                   p.mb-0 #[b Entonces:]
                   p.mb-0 Valor en libros..........$2.500

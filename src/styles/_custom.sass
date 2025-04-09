@@ -47,12 +47,14 @@ figcaption
     background-position: center center // centro horizontal y vertical
     height: 36px
     display: flex
-    align-items: center // centra el contenido verticalmente
-    justify-content: center // opcional si quieres centrar el contenido horizontal también
+    align-items: center
+    justify-content: center 
 
     @media screen and (max-width: $bp-max-sm)
       background-repeat: repeat
-      background-position: center top // ajusta para móvil si prefieres
+      background-position: center top 
+      height: auto
+      
   &-intro1
     background-image: url(../assets/curso/intro/bg1.png)
     background-repeat: no-repeat
@@ -132,6 +134,9 @@ th, td
 
   th, td 
     white-space: normal
+
+.htb
+  background-color: #FD9826 !important
 
 //FIN TABLAS//
 
