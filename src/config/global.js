@@ -150,10 +150,13 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema:
+        'Estándares/normas internacionales de información financiera (IFRS7NIIF).',
+      referencia:
+        'Estándares/normas internacionales de información financiera (IFRS7NIIF). (pp. 387-395). (3a edición ed.). Bogotá: ECOE Ediciones',
+      tipo: 'Página Web',
+      link:
+        'https://ebookcentraroquestcom.bdigital.sena.edu.co/lib/senavirtualsp/detail.action?docID=3161303',
     },
   ],
   glosario: [
@@ -225,8 +228,45 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Blanco, S. (2013). Estándares/normas internacionales de información financiera (IFRS7NIIF). ECOE Ediciones.',
       link: '',
+    },
+    {
+      referencia:
+        'Burgos Alarcón, H. (2007). Normas Internacionales de Contabilidad. Panorama. Universidad Politécnico Grancolombiano, 1(3), 65-70.',
+      link: '',
+    },
+    {
+      referencia:
+        'Godoy Ramírez, E. (2014). NIIF Presentación de Estados Financieros, aplicación y desarrollo, ejemplos, ejercicios prácticos, adopción por primera vez. Grupo Editorial Nueva Legislación. IFRS Fundación. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Ley 1349 (2020, 10 de diciembre). Diario oficial 47.751, Bogotá, D.C., Colombia.',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1349_2009.html',
+    },
+    {
+      referencia:
+        'SUIN Juriscoop. (2020, 10 de diciembre).Decreto 2784 de diciembre 2012.',
+      link: 'http://suin.gov.co/viewDocument.asp?id=1776952',
+    },
+    {
+      referencia: 'CTCP (2020, 10 de diciembre). NIC 16',
+      link:
+        'https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534369767-2310',
+    },
+    {
+      referencia:
+        'NIIF PARA LAS PYMES – JULIO 2009- sección 18 Activos Intangibles Distintos de la Plusvalía.',
+      link: '',
+    },
+    {
+      referencia:
+        'Normas Internacionales de Información Financiera (NIIF) (2008). Guía rápida IFRS 2008. <a href="https://www.pwc.com/">https://www.pwc.com/</a> ',
+      link: 'https://www.pwc.com/cl/es/ifrs/assets/grifrs_2008.pdf',
     },
   ],
   creditos: [
