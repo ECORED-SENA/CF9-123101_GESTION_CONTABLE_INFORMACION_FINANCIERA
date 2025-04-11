@@ -275,7 +275,7 @@ export default {
         },
         {
           id: 9,
-          texto: '¿Qué son los gastos pagados por anticipado?\tx',
+          texto: '¿Qué son los gastos pagados por anticipado?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -283,7 +283,7 @@ export default {
               id: 'a',
               texto:
                 'Pagos que cubren un periodo futuro sin haberse recibido aún el bien o servicio.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
