@@ -27,7 +27,7 @@
               :style="{'background-image': `url(${require('@/assets/curso/tema2/img2.png')})`}"
             )
             .bloque-texto-g__texto.p-4
-              p.mb-0 Los diferidos dependen de su materialidad y normalmente se llevan a una cuenta de gastos, pero esto no impide que en algunas ocasiones se deba hacer cierto análisis porque puede ser que el cargo diferido cumpla la definición de activo, y si en algún momento cumple con la definición de activo, es decir que sea un recurso controlado por la empresa proveniente de sucesos pasados de los cuales se espera recibir beneficios futuros.
+              p.mb-0 Los diferidos dependen de su materialidad y normalmente se llevan a una cuenta de gastos, pero esto no impide que en algunas ocasiones se deba hacer cierto análisis porque puede ser que el cargo diferido cumpla la definición de activo, y si en algún momento cumple con la definición de activo, es decir, que sea un recurso controlado por la empresa proveniente de sucesos pasados de los cuales se espera recibir beneficios futuros.
 
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
@@ -35,7 +35,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-7
-        p Son un anticipo que se entrega (en dinero) y que van a cubrir un determinado tiempo de acuerdo con el uso. Por ejemplo, una póliza de seguro (prepagada), intereses pagados por anticipado, arrendamientos, entre otros, en los que incurre el ente económico en la ejecución de su actividad.  Lo importante, en determinado momento es saber si cumple con la definición de activo estos gastos que normalmente se ubican en una cuenta por cobrar u otras cuentas por cobrar.
+        p Son un anticipo que se entrega (en dinero) y que va a cubrir un determinado tiempo de acuerdo con el uso. Por ejemplo, una póliza de seguro (prepagada), intereses pagados por anticipado, arrendamientos, entre otros, en los que incurre el ente económico en la ejecución de su actividad.  Lo importante, en determinado momento es saber si cumplen con la definición de activo estos gastos que normalmente se ubican en una cuenta por cobrar u otras cuentas por cobrar.
 
         p #[b El párrafo 70 de la NIC 38, sostiene:]
 
@@ -75,9 +75,9 @@
 
                 p Los desembolsos sobre un activo intangible, reconocidos inicialmente como gastos del periodo no se reconocerán posteriormente como parte del costo de un activo intangible.
 
-          p.mt-4 #[b Ejemplo:]
+          p.mt-4 #[b Ejemplo]
 
-          p Párrafo 28 NIC 38 Activos Intangibles: a) los costos de introducción de un nuevo producto o servicio (incluyendo los costos de actividades publicitarias y promocionales); b) los costos de apertura del negocio en una nueva localización o dirigirlo a un nuevo segmento de clientela (incluyendo los costos de formación del personal); y (c) los costos de administración y otros costos indirectos generales.
+          p Párrafo 28 NIC 38 Activos intangibles: a) los costos de introducción de un nuevo producto o servicio (incluyendo los costos de actividades publicitarias y promocionales); b) los costos de apertura del negocio en una nueva localización o dirigirlo a un nuevo segmento de clientela (incluyendo los costos de formación del personal); y (c) los costos de administración y otros costos indirectos generales.
 
           .row.justify-content-center.mt-4
             .col-sm-6.col-lg-5.mb-4.mb-lg-0
@@ -100,7 +100,7 @@
                 h4 Medición posterior al modelo revaluación
                 p Un activo intangible se registrará por el valor revaluado (valor razonable), menos la amortización y las pérdidas acumuladas por deterioro que haya sufrido el activo.
 
-    p Por otro lado, los desembolsos sobre una partida intangible deberán reconocerse como un gasto cuando se incurra en ellos (NIC 38 Párrafo 68)
+    p Por otro lado, los desembolsos sobre una partida intangible deberán reconocerse como un gasto cuando se incurra en ellos (NIC 38 Párrafo 68).
 
     p.mt-4 #[b Ejemplo 1]
 
@@ -119,7 +119,7 @@
                   .col-xl.p-lg-5
                     .p-5.w-100.align-items-cente
                       p.mb-0 Valor Anticipo ....$3.000.000
-                      p.mb-0 Más IVA..............$570 .000
+                      p.mb-0 Más IVA..............$570.000
                       p.mb-0 Valor Total..........$3.750.000
 
         p.mt-4 Cuando una empresa realiza un pago anticipado por arrendamiento, este se registra inicialmente como gasto y, si aplica, también como activo por impuestos. A continuación, se presenta el asiento contable correspondiente al reconocimiento:
@@ -151,7 +151,7 @@
                     td 
                     td 3.570.000
 
-          .col-lg-6.mt-4.md-0
+          .col-lg-6.mt-lg-0.mt-4.md-0
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 7. 
               span Registro contable - Pago de arrendamiento previamente reconocido
@@ -173,18 +173,18 @@
                     td 
                     td 3.570.000
 
-        p.p-4.bg-t1-7.mt-4 Nota: vale la pena aclarar que, aunque la norma internacional indica que todos los desembolsos deben reconocerse como gasto, queda a criterio de la entidad si, esta debe ser registrada como gastos o clasificarse como gastos pagados por anticipado.
+        p.p-4.bg-t1-7.mt-4 Nota: vale la pena aclarar que, aunque la norma internacional indica que todos los desembolsos deben reconocerse como gasto, queda a criterio de la entidad si, estos deben ser registrados como gastos o clasificarse como gastos pagados por anticipado.
 
 
     p.mt-4 #[b Ejemplo 2]
 
     .row.justify-content-center.bg-t1-6
       .p-lg-5
-        p.mt-4.md-0 El 1 de enero de 20xx la empresa SABACO Ltda., adquirió una póliza de seguros contra incendios por 1 año, por valor de $4.000.000 mediante cheque girado del banco Davivienda.
+        p.mt-4.md-0 El 1 de enero de 20xx, la empresa SABACO Ltda. adquirió una póliza de seguros contra incendios por 1 año, por valor de $4.000.000, mediante cheque girado del banco Davivienda.
 
         p #[b Manejo de anticipos]
 
-        p El 1 de enero de 20xx la empresa SABACO Ltda., adquirió una póliza de seguros contra incendios por 1 año, por valor de $4.000.000 mediante cheque girado del banco Davivienda.
+        p El 1 de enero de 20xx, la empresa SABACO Ltda. adquirió una póliza de seguros contra incendios por 1 año, por valor de $4.000.000, mediante cheque girado del banco Davivienda.
 
         .row.justify-content-center.mt-4
           .col-lg-6
@@ -209,7 +209,7 @@
                     td 
                     td 4.000.000
 
-          .col-lg-6.mt-4.md-0
+          .col-lg-6.mt-lg-0.mt-4.md-0
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 9. 
               span Momento del pago
@@ -264,7 +264,7 @@
     #t_2_4.titulo-segundo.color-acento-contenido
       h2 2.4 Retiros, enajenaciones y revelación
     
-    p La gestión contable de los activos intangibles requiere no solo reconocer y medir adecuadamente estos elementos, sino también establecer los criterios para su retiro o enajenación cuando dejan de generar beneficios económicos
+    p La gestión contable de los activos intangibles requiere no solo reconocer y medir adecuadamente estos elementos, sino también establecer los criterios para su retiro o enajenación cuando dejan de generar beneficios económicos.
 
     .row.justify-content-center.mt-4
       .col-sm-6.col-lg-5.mb-4.mb-lg-0

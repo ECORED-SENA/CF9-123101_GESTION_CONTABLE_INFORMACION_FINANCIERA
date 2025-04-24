@@ -17,10 +17,11 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema:
+        'Identificar los conceptos clave sobre el reconocimiento, medición, amortización, y revelación de los activos intangibles y diferidos conforme a la NIC 38.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Identificar los conceptos clave sobre el reconocimiento, medición, amortización, y revelación de los activos intangibles y diferidos conforme a la NIC 38.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',

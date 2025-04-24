@@ -18,7 +18,7 @@
     .row.bg-intro1
       .col-12
         .p-5
-          p Para la elaboración de este componente, se abordaron varios autores conocidos en contratos de trabajo y liquidación de nómina, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido que el conocimiento es social y, por lo tanto, es para usarlo por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de gestión contable e información financiera.
+          p Para la elaboración de este componente, se abordaron varios autores conocidos en contratos de trabajo y liquidación de nómina, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para usarlo por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de gestión contable e información financiera.
 
           .row.justify-content-center.mt-4 
             .col-lg-8
@@ -26,6 +26,7 @@
             .col-lg-4.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/intro/img1.png', alt='', style="width: 480px").m-auto
+
 
 </template>
 
