@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Diferidos
+      h1(data-aos="zoom-in") Diferidos
     
     .row.bg-t2-1.mt-4
       .col-12
@@ -20,9 +20,9 @@
 
           separador
           #t_2_1.titulo-segundo.color-acento-contenido
-            h2 2.1 Concepto de cargos diferidos
+            h2(data-aos="zoom-in") 2.1 Concepto de cargos diferidos
 
-          .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="zoom-in")
             .bloque-texto-g__img(
               :style="{'background-image': `url(${require('@/assets/curso/tema2/img2.png')})`}"
             )
@@ -31,7 +31,7 @@
 
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2 Concepto de gastos pagados por anticipado
+      h2(data-aos="zoom-in") 2.2 Concepto de gastos pagados por anticipado
 
     .row.justify-content-center.align-items-center
       .col-lg-7
@@ -45,18 +45,18 @@
             h4.mb-0 (…) el párrafo 68 no impide que ésta reconozca el pago anticipado como un activo, cuando dicho pago por servicios se haya realizado antes de que la entidad reciba estos servicios.
             i.fas.fa-quote-right 
       .col-lg-5.d-none.d-lg-block
-        figure
+        figure(data-aos="fade-up")
           img(src='@/assets/curso/tema2/img3.png', alt='', style="width: 480px").m-auto
 
     separador
     #t_2_3.titulo-segundo.color-acento-contenido
-      h2 2.3 Reconocimiento y medición
+      h2(data-aos="zoom-in") 2.3 Reconocimiento y medición
 
     .row.mb-2.ms-0.mt-4
       .col-auto.bg-c3(data-aos="fade-left")
         .row.align-items-center
           .col-auto.px-0
-            figure
+            figure(data-aos="fade-down")
               img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 64px')
           .col
             h3.mb-0 Reconocimiento
@@ -81,7 +81,7 @@
 
           .row.justify-content-center.mt-4
             .col-sm-6.col-lg-5.mb-4.mb-lg-0
-              .tarjeta--boton.bg-t1-4.p-4.h-100
+              .tarjeta--boton.bg-t1-4.p-4.h-100(data-aos="zoom-in")
                 .row.justify-content-center.mb-3
                   .col-3
                     figure
@@ -91,7 +91,7 @@
                 p La medición posterior de un activo intangible se contabilizará por su costo menos el valor de la amortización acumulada y las pérdidas por deterioro del activo contempladas en el párrafo 74 de la NIC 38.
 
             .col-sm-6.col-lg-5.mb-4.mb-lg-0
-              .tarjeta--boton.bg-t1-5.p-4.h-100
+              .tarjeta--boton.bg-t1-5.p-4.h-100(data-aos="zoom-in")
                 .row.justify-content-center.mb-3
                   .col-3
                     figure
@@ -139,17 +139,17 @@
                     th(style="width: 25%") Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td #[b Gastos Arrendamientos]
-                    td 3.000.000
-                    td 
+                    td Gastos Arrendamientos
+                    td.text-end $3.000.000
+                    td.text-end -
                   tr(style="background-color: #FFF")
-                    td #[b Activo por Impuestos]
-                    td 570.000
-                    td 
+                    td Activo por Impuestos
+                    td.text-end $570.000
+                    td.text-end -
                   tr(style="background-color: #F6F6F6")
-                    td #[b Cuentas por Pagar]
-                    td 
-                    td 3.570.000
+                    td Cuentas por Pagar
+                    td.text-end -
+                    td.text-end $3.570.000
 
           .col-lg-6.mt-lg-0.mt-4.md-0
             .titulo-sexto.color-acento-contenido.mb-3
@@ -165,13 +165,13 @@
                     th(style="width: 25%") Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td #[b Cuentas por pagar]
-                    td 3.570.000
-                    td 
+                    td Cuentas por pagar
+                    td.text-end $3.570.000
+                    td.text-end -
                   tr(style="background-color: #FFF")
-                    td #[b Activo- Bancos Nacionales]
-                    td 
-                    td 3.570.000
+                    td Activo- Bancos Nacionales
+                    td.text-end -
+                    td.text-end $3.570.000
 
         p.p-4.bg-t1-7.mt-4 Nota: vale la pena aclarar que, aunque la norma internacional indica que todos los desembolsos deben reconocerse como gasto, queda a criterio de la entidad si, estos deben ser registrados como gastos o clasificarse como gastos pagados por anticipado.
 
@@ -201,13 +201,13 @@
                     th(style="width: 25%") Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td #[b Activo- Póliza de Seguros- Incendios]
-                    td 4.000.000
-                    td 
+                    td Activo- Póliza de Seguros- Incendios
+                    td.text-end $4.000.000
+                    td.text-end -
                   tr(style="background-color: #FFF")
-                    td #[b Cuentas por Pagar]
-                    td 
-                    td 4.000.000
+                    td Cuentas por Pagar
+                    td.text-end -
+                    td.text-end $4.000.000
 
           .col-lg-6.mt-lg-0.mt-4.md-0
             .titulo-sexto.color-acento-contenido.mb-3
@@ -222,13 +222,13 @@
                     th(style="width: 25%") Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td #[b Cuentas por pagar]
-                    td 4.000.000
-                    td 
+                    td Cuentas por pagar
+                    td.text-end 4.000.000
+                    td.text-end -
                   tr(style="background-color: #FFF")
-                    td #[b Activo- Bancos Nacionales]
-                    td 
-                    td 4.000.000
+                    td Activo- Bancos Nacionales
+                    td.text-end -
+                    td.text-end 4.000.000
 
         p.mt-4 La empresa mensualmente debe hacer un asiento de ajuste para reconocer en el estado de resultados el gasto por póliza de seguros de cada periodo así: 
 
@@ -246,13 +246,13 @@
                     th(style="width: 20%") Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td #[b Gasto - Póliza de Seguros- Incendios]
-                    td 333.333
-                    td 
+                    td Gasto - Póliza de Seguros- Incendios
+                    td.text-end $333.333
+                    td.text-end -
                   tr(style="background-color: #FFF")
-                    td #[b Activo Póliza de Seguros- Incendios]
-                    td 
-                    td 333.333
+                    td Activo Póliza de Seguros- Incendios
+                    td.text-end -
+                    td.text-end $333.333
 
           .col-lg-4.d-none.d-lg-block
             figure
@@ -262,13 +262,13 @@
 
     separador
     #t_2_4.titulo-segundo.color-acento-contenido
-      h2 2.4 Retiros, enajenaciones y revelación
+      h2(data-aos="zoom-in") 2.4 Retiros, enajenaciones y revelación
     
     p La gestión contable de los activos intangibles requiere no solo reconocer y medir adecuadamente estos elementos, sino también establecer los criterios para su retiro o enajenación cuando dejan de generar beneficios económicos.
 
     .row.justify-content-center.mt-4
       .col-sm-6.col-lg-5.mb-4.mb-lg-0
-        .tarjeta--boton.bg-t1-4.p-5.h-100
+        .tarjeta--boton.bg-t1-4.p-5.h-100(data-aos="zoom-in")
           .row.justify-content-center.mb-3
             .col-3
               figure
@@ -281,7 +281,7 @@
 
 
       .col-sm-6.col-lg-5.mb-4.mb-lg-0
-        .tarjeta--boton.bg-t1-5.p-5.h-100
+        .tarjeta--boton.bg-t1-5.p-5.h-100(data-aos="zoom-in")
           .row.justify-content-center.mb-3
             .col-3
               figure
