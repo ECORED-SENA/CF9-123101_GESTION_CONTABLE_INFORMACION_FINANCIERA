@@ -46,7 +46,7 @@
 
     separador
     #t_1_3.titulo-segundo.color-acento-contenido
-      h2(data-aos="zoom-in") 1.3 Clasificación de Activos Intangibles
+      h2(data-aos="zoom-in") 1.3 Clasificación de activos intangibles
 
     .row.bg-intro1.mt-4
       .col-12
@@ -59,7 +59,7 @@
                     figure
                       img(src='@/assets/curso/tema1/img4.png', style="width:90px")
 
-                h4 Activos Intangibles No Identificables:
+                h4 Activos intangibles no identificables:
                 p Son activos que no se pueden separar. Por ejemplo, una empresa no puede vender su posicionamiento porque tendría que vender toda la empresa, no puede vender por un lado la empresa y por otro lado el posicionamiento, se tienen que vender las dos cosas en conjunto, ya que son inherentes a la entidad. 
 
             .col-sm-6.col-lg-5.mb-4.mb-lg-0
@@ -69,12 +69,12 @@
                     figure
                       img(src='@/assets/curso/tema1/img5.png', style="width:90px")
 
-                h4 Activos Intangibles Identificables:
+                h4 Activos intangibles identificables:
                 p Contrario a los no identificables los activos identificables son activos que se pueden separar. En este caso, podemos señalar algunos ejemplos como, los relacionados con la tecnología, bases de datos, <em>software</em>, licencias, entre otros. 
 
     separador
     #t_1_4.titulo-segundo.color-acento-contenido
-      h2(data-aos="zoom-in") 1.4 Reconocimiento y medición de Intangibles
+      h2(data-aos="zoom-in") 1.4 Reconocimiento y medición de intangibles
 
     .row.mb-2.ms-0.mt-4
       .col-auto.bg-c3(data-aos="fade-left")
@@ -83,7 +83,7 @@
             figure
               img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 64px')
           .col
-            h3.mb-0 Reconocimiento de Intangibles
+            h3.mb-0 Reconocimiento de intangibles
 
     p.mt-4 Las Normas Internacionales de Información Financiera (NIIF) - NIC 38 Activos Intangibles, reconocerán los activos intangibles teniendo en cuenta la circunstancia o la eventualidad de la adquisición. 
 
@@ -110,7 +110,7 @@
 
     separador
     #t_1_5.titulo-segundo.color-acento-contenido
-      h2(data-aos="zoom-in") 1.5 Generalidades de intangibles: vida útil, periodo, método de amortización y valor razonable.
+      h2(data-aos="zoom-in") 1.5 Generalidades de intangibles: vida útil, periodo, método de amortización y valor razonable
 
     p La vida útil de los activos intangibles es considerada como el periodo de tiempo, durante el cual se espera de que contribuyan a la generación de flujos de efectivo para la entidad.
 
@@ -135,7 +135,7 @@
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img7.png', alt='', style="width: 500px")
 
-    p.mt-4 #[b Ejemplo]
+    p.mt-4 #[b Ejemplo:]
 
     .row.justify-content-center.bg-t1-6
       .p-lg-5
@@ -145,13 +145,13 @@
         p De acuerdo con la NIC 38, la vida útil es “el periodo durante el cual se espera que la entidad utilice el activo” o “el número de unidades de producción o similares que se espera obtener del mismo por parte de una entidad”. 
 
         p #[b 1. Enero 1 de 20X1: se realiza el registro de la adquisición de la patente y de la marca.]
-        p **Causación- reconocimiento
+        p Causación- reconocimiento
 
         .row.justify-content-center.mt-4
           .col-lg-6
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 1.
-              span Registro contable - Causación / Reconocimiento
+              span Registro contable causación reconocimiento
 
             .tabla-scroll
               table.table.table-bordered
@@ -162,22 +162,22 @@
                     th.htb.text-center Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td Propiedad Industrial Patente
+                    td Propiedad industrial patente
                     td.text-end $4.500
                     td.text-end -
                   tr(style="background-color: #FFF")
-                    td Propiedad Industrial Patente
+                    td Propiedad industrial patente
                     td.text-end $2.500
                     td.text-end -
                   tr(style="background-color: #F6F6F6")
-                    td Costos y Gastos por pagar
+                    td Costos y gastos por pagar
                     td.text-end -
-                    td.text-end $7.000.0
+                    td.text-end $7.000
 
           .col-lg-6
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 2. 
-              span Registro contable - Pago
+              span Registro contable pago
 
             .tabla-scroll
               table.table.table-bordered
@@ -188,20 +188,20 @@
                     th.htb.text-center Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td Costos y Gastos por pagar
+                    td Costos y gastos por pagar
                     td.text-end $7.000
                     td.text-end -
                   tr(style="background-color: #FFF")
-                    td Efectivo y Equivalentes a Efectivo- Bancos
+                    td Efectivo y equivalentes a efectivo- bancos
                     td.text-end -
-                    td.text-end $7.000.0
+                    td.text-end $7.000
 
         p.mt-4 #[b 2. Diciembre 31 del año  20X1: se registra la amortización del activo con vida útil definida.]
         p Nota: de la misma forma aplica para el año 20X2 y sucesivos.
 
         .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 3. 
-              span Registro contable - Amortización Intangible: Patente (mensual por 4 años)
+              span Registro contable amortización intangible: patente (mensual por 4 años)
         .row.justify-content-center.mt-4.align-items-center
           .col-lg-7
             .tabla-scroll
@@ -213,13 +213,13 @@
                     th(style="width: 20%") Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td Gastos Amortización Propiedad Industrial Patente
-                    td 93,75
-                    td -
+                    td.text-start Gastos amortización propiedad industrial patente
+                    td.text-end 93,75
+                    td.text-end -
                   tr(style="background-color: #FFF")
-                    td Efectivo y Equivalentes a Efectivo
-                    td - 
-                    td 93,75
+                    td.text-start Efectivo y equivalentes a efectivo
+                    td.text-end - 
+                    td.text-end 93,75
 
           .col-lg-5.d-none.d-lg-block
             figure(data-aos="zoom-in")
@@ -230,7 +230,7 @@
 
         .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 4. 
-              span 
+              span Reconocimiento contable de arrendamiento pagado por anticipado
         .row.justify-content-center.mt-4.align-items-center
           .col-lg-8
             .tabla-scroll
@@ -242,13 +242,13 @@
                     th(style="width: 20%") Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td Pérdidas por deterioro del activo Intangible(2500*0.3)
-                    td 750
+                    td.text-start Pérdidas por deterioro del activo intangible(2500*0.3)
+                    td.text-end $750
                     td -
                   tr(style="background-color: #FFF")
-                    td Deterioro de valor de Propiedad Industrial Marcas
-                    td -
-                    td 750
+                    td.text-start Deterioro de valor de propiedad industrial marcas
+                    td.text-end -
+                    td.text-end $750
 
           .col-lg-4.d-none.d-lg-block
             figure(data-aos="zoom-in")
@@ -261,7 +261,7 @@
             figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 64px')
           .col
-            h3.mb-0 Periodo y Método de Amortización
+            h3.mb-0 Periodo y método de amortización
 
     .row.bg-intro1.mt-4
       .col-12
@@ -272,7 +272,7 @@
             .col-lg-8
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 5. 
-                span 
+                span Registro contable - Pago de arrendamiento previamente reconocido
               .tabla-scroll
                 table
                   thead
@@ -302,7 +302,7 @@
             figure
               img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 64px')
           .col
-            h3.mb-0 Valor Razonable
+            h3.mb-0 Valor razonable
 
     p.mt-4 Corresponde al precio que se recibirá por vender un activo o que se pagaría por transferir un pasivo en una transacción entre dos agentes o participantes en el mercado en el momento de la medición del activo.
 
@@ -323,7 +323,7 @@
                   p.mb-0 #[b Entonces:]
                   p.mb-0 Valor en libros..........$2.500
                   p.mb-0 Valor razonable........$1.750
-                  p.mb-0 Valor del deterioro.....$750
+                  p.mb-0 Valor del deterioro......$750
 
               
     separador

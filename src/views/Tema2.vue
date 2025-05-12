@@ -75,7 +75,7 @@
 
                 p Los desembolsos sobre un activo intangible, reconocidos inicialmente como gastos del periodo no se reconocerán posteriormente como parte del costo de un activo intangible.
 
-          p.mt-4 #[b Ejemplo]
+          p.mt-4 #[b Ejemplo:]
 
           p Párrafo 28 NIC 38 Activos intangibles: a) los costos de introducción de un nuevo producto o servicio (incluyendo los costos de actividades publicitarias y promocionales); b) los costos de apertura del negocio en una nueva localización o dirigirlo a un nuevo segmento de clientela (incluyendo los costos de formación del personal); y (c) los costos de administración y otros costos indirectos generales.
 
@@ -102,7 +102,7 @@
 
     p Por otro lado, los desembolsos sobre una partida intangible deberán reconocerse como un gasto cuando se incurra en ellos (NIC 38 Párrafo 68).
 
-    p.mt-4 #[b Ejemplo 1]
+    p.mt-4 #[b Ejemplo 1:]
 
     .row.justify-content-center.bg-t1-6
       .p-lg-5
@@ -118,8 +118,8 @@
                       img(src='@/assets/curso/tema2/img7.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
                   .col-xl.p-lg-5
                     .p-5.w-100.align-items-cente
-                      p.mb-0 Valor Anticipo ....$3.000.000
-                      p.mb-0 Más IVA..............$570.000
+                      p.mb-0 Valor Anticipo....$3.000.000
+                      p.mb-0 Más IVA.................$570.000
                       p.mb-0 Valor Total..........$3.750.000
 
         p.mt-4 Cuando una empresa realiza un pago anticipado por arrendamiento, este se registra inicialmente como gasto y, si aplica, también como activo por impuestos. A continuación, se presenta el asiento contable correspondiente al reconocimiento:
@@ -139,22 +139,22 @@
                     th(style="width: 25%") Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td Gastos Arrendamientos
+                    td.text-start Gastos arrendamientos
                     td.text-end $3.000.000
                     td.text-end -
                   tr(style="background-color: #FFF")
-                    td Activo por Impuestos
+                    td.text-start Activo por impuestos
                     td.text-end $570.000
                     td.text-end -
                   tr(style="background-color: #F6F6F6")
-                    td Cuentas por Pagar
+                    td.text-start Cuentas por pagar
                     td.text-end -
                     td.text-end $3.570.000
 
           .col-lg-6.mt-lg-0.mt-4.md-0
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 7. 
-              span Registro contable - Pago de arrendamiento previamente reconocido
+              span Registro contable pago de arrendamiento previamente reconocido
 
             .tabla-scroll
               table
@@ -165,18 +165,18 @@
                     th(style="width: 25%") Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td Cuentas por pagar
+                    td.text-start Cuentas por pagar
                     td.text-end $3.570.000
                     td.text-end -
                   tr(style="background-color: #FFF")
-                    td Activo- Bancos Nacionales
+                    td.text-start Activo- bancos nacionales
                     td.text-end -
                     td.text-end $3.570.000
 
         p.p-4.bg-t1-7.mt-4 Nota: vale la pena aclarar que, aunque la norma internacional indica que todos los desembolsos deben reconocerse como gasto, queda a criterio de la entidad si, estos deben ser registrados como gastos o clasificarse como gastos pagados por anticipado.
 
 
-    p.mt-4 #[b Ejemplo 2]
+    p.mt-4 #[b Ejemplo 2:]
 
     .row.justify-content-center.bg-t1-6
       .p-lg-5
@@ -201,11 +201,11 @@
                     th(style="width: 25%") Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td Activo- Póliza de Seguros- Incendios
+                    td.text-start Activo - póliza de seguros - incendios
                     td.text-end $4.000.000
                     td.text-end -
                   tr(style="background-color: #FFF")
-                    td Cuentas por Pagar
+                    td.text-start Cuentas por pagar
                     td.text-end -
                     td.text-end $4.000.000
 
@@ -222,11 +222,11 @@
                     th(style="width: 25%") Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td Cuentas por pagar
+                    td.text-start Cuentas por pagar
                     td.text-end 4.000.000
                     td.text-end -
                   tr(style="background-color: #FFF")
-                    td Activo- Bancos Nacionales
+                    td.text-start Activo - bancos nacionales
                     td.text-end -
                     td.text-end 4.000.000
 
@@ -246,11 +246,11 @@
                     th(style="width: 20%") Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td Gasto - Póliza de Seguros- Incendios
+                    td.text-start Gasto - póliza de seguros - incendios
                     td.text-end $333.333
                     td.text-end -
                   tr(style="background-color: #FFF")
-                    td Activo Póliza de Seguros- Incendios
+                    td.text-start Activo póliza de seguros - incendios
                     td.text-end -
                     td.text-end $333.333
 
