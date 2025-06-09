@@ -13,7 +13,7 @@
           .row.justify-content-center.align-items-center 
             .col-lg-8
               .row.bg-t1-1.p-4
-                p Los cargos diferidos se pueden dividir en dos partes: #[b Diferidos propiamente dicho] y los #[b gastos pagados por anticipado].  
+                p Los cargos diferidos se pueden dividir en dos partes: diferidos propiamente dicho y los gastos pagados por anticipado.
             .col-lg-4.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/tema2/img1.png', alt='', style="width: 295px").m-auto
@@ -128,7 +128,7 @@
           .col-lg-6
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 6.
-              span  Reconocimiento contable de arrendamiento pagado por anticipado
+              span Reconocimiento contable de arrendamiento pagado por anticipado
 
             .tabla-scroll
               table
@@ -180,7 +180,6 @@
 
     .row.justify-content-center.bg-t1-6
       .p-lg-5
-        p.mt-4.md-0 El 1 de enero de 20xx, la empresa SABACO Ltda. adquirió una póliza de seguros contra incendios por 1 año, por valor de $4.000.000, mediante cheque girado del banco Davivienda.
 
         p #[b Manejo de anticipos]
 

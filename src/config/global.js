@@ -36,7 +36,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Intangibles y Diferidos',
+        titulo: 'Intangibles y diferidos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -52,12 +52,12 @@ export default {
           },
           {
             numero: '1.3',
-            titulo: 'Clasificación de Activos Intangibles',
+            titulo: 'Clasificación de activos intangibles',
             hash: 't_1_3',
           },
           {
             numero: '1.4',
-            titulo: 'Reconocimiento y medición de Intangibles',
+            titulo: 'Reconocimiento y medición de intangibles',
             hash: 't_1_4',
           },
           {
@@ -203,7 +203,7 @@ export default {
     {
       termino: 'NIIF',
       significado:
-        'Sigla en español de las IFRS - Normas expedidas por IASB. Este término trae incluidas las NIC (Normas Internacionales de Contabilidad), NIIF (Normas Internacionales de Información Financiera, así como las interpretaciones CINIIF y SIC.',
+        'Sigla en español de las IFRS - Normas expedidas por IASB. Este término trae incluidas las NIC (Normas Internacionales de Contabilidad), NIIF (Normas Internacionales de Información Financiera), así como las interpretaciones CINIIF y SIC.',
     },
     {
       termino: 'Pérdida por deterioro',
@@ -265,7 +265,7 @@ export default {
     },
     {
       referencia:
-        'Normas Internacionales de Información Financiera (NIIF) (2008). Guía rápida IFRS 2008. <a href="https://www.pwc.com/">https://www.pwc.com/</a> ',
+        'Normas Internacionales de Información Financiera (NIIF) (2008). Guía rápida IFRS 2008. ',
       link: 'https://www.pwc.com/cl/es/ifrs/assets/grifrs_2008.pdf',
     },
   ],

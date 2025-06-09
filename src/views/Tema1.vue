@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1(data-aos="zoom-in") Intangibles y Diferidos
+      h1(data-aos="zoom-in") Intangibles y diferidos
 
     .row.justify-content-center.align-items-center 
       .col-lg-9
@@ -27,7 +27,7 @@
               :style="{'background-image': `url(${require('@/assets/curso/tema1/img2.png')})`}"
             )
             .bloque-texto-g__texto.p-4
-              p.mb-0 Para realizar la presentación razonable y en cumplimiento de las NIIF, los estados financieros siempre deben reflejar, razonablemente, todas y cada una de sus partidas, dentro de las que se encuentran, los activos intangibles. Esta presentación razonable exige proporcionar la imagen fiel de los efectos de las transacciones, eventos y condiciones de acuerdo con las definiciones y criterios de reconocimiento de los activos, pasivos, ingresos y gastos fijados en el Marco Conceptual de la norma.
+              p.mb-0 Para realizar la presentación razonable y en cumplimiento de las NIIF, los estados financieros siempre deben reflejar, razonablemente, todas y cada una de sus partidas, dentro de las que se encuentran, los activos intangibles. Esta presentación razonable exige proporcionar la imagen fiel de los efectos de las transacciones, eventos y condiciones de acuerdo con las definiciones y criterios de reconocimiento de los activos, pasivos, ingresos y gastos fijados en el marco conceptual de la norma.
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido
@@ -145,7 +145,6 @@
         p De acuerdo con la NIC 38, la vida útil es “el periodo durante el cual se espera que la entidad utilice el activo” o “el número de unidades de producción o similares que se espera obtener del mismo por parte de una entidad”. 
 
         p #[b 1. Enero 1 de 20X1: se realiza el registro de la adquisición de la patente y de la marca.]
-        p Causación- reconocimiento
 
         .row.justify-content-center.mt-4
           .col-lg-6
@@ -192,7 +191,7 @@
                     td.text-end $7.000
                     td.text-end -
                   tr(style="background-color: #FFF")
-                    td Efectivo y equivalentes a efectivo- bancos
+                    td Efectivo y equivalentes a efectivo - bancos
                     td.text-end -
                     td.text-end $7.000
 
@@ -282,17 +281,16 @@
                       th(style="width: 20%") Haber
                   tbody
                     tr(style="background-color: #F6F6F6")
-                      td Gastos Amortización Propiedad Industrial Patente(4500/4)
+                      td Gastos amortización propiedad industrial patente (4500/4)
                       td 93,75 
                       td -
                     tr(style="background-color: #FFF")
-                      td Efectivo y Equivalentes a Efectivo
+                      td Efectivo y equivalentes a efectivo
                       td -
                       td 93,75 
 
           p.mt-4 Vale la pena recordar que la amortización de los intangibles inicia cuando el activo está a disposición y en condiciones de uso. 
-          p El método de amortización utilizado refleja el patrón de agotamiento esperado, por parte de la entidad.  El cargo por amortización de cada período se reconocerá en el resultado del periodo, según indicaciones de la NIC 38.
-
+          
           p El método de amortización utilizado refleja el patrón de agotamiento esperado, por parte de la entidad.  El cargo por amortización de cada período se reconocerá en el resultado del periodo, según indicaciones de la NIC 38.
 
     .row.mb-2.ms-0.mt-4

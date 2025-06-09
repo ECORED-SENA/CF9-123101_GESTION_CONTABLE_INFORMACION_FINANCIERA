@@ -11,7 +11,7 @@
     p(data-aos="fade-left") Durante el presente componente tendrá la oportunidad de fortalecer sus conocimientos frente a la legislación laboral; por ende, es necesario que indague sobre las generalidades de contratos, nómina, beneficios a empleados y reconocimiento de los hechos presentados. Lo anterior se debe realizar teniendo en cuenta la normativa vigente.
 
     
-    .video.mb-5.mt-4
+    .video.mt-4
       iframe(width="560" height="315" src="https://www.youtube.com/embed/0uQpZiKaSGc?si=fIlgNZ_aM_q1Qjrh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 

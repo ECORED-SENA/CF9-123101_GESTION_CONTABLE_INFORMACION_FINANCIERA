@@ -21,7 +21,7 @@ export default {
         'Identificar los conceptos clave sobre el reconocimiento, medición, amortización, y revelación de los activos intangibles y diferidos conforme a la NIC 38.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar los conceptos clave sobre el reconocimiento, medición, amortización, y revelación de los activos intangibles y diferidos conforme a la NIC 38.',
+        '<b> Objetivo:</b> identificar los conceptos clave sobre el reconocimiento, medición, amortización, y revelación de los activos intangibles y diferidos conforme a la NIC 38.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
@@ -66,7 +66,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Software.',
+              texto: '<i>Software</i>.',
               esCorrecta: true,
             },
             {
