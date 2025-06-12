@@ -161,11 +161,11 @@
                     th.htb.text-center Haber
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td Propiedad industrial patente
+                    td Propiedad industrial - patente
                     td.text-end $4.500
                     td.text-end -
                   tr(style="background-color: #FFF")
-                    td Propiedad industrial patente
+                    td Propiedad industrial - marca
                     td.text-end $2.500
                     td.text-end -
                   tr(style="background-color: #F6F6F6")
