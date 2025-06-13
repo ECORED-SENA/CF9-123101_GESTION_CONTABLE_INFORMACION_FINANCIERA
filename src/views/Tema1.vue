@@ -271,7 +271,7 @@
             .col-lg-8
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 5. 
-                span Registro contable - Pago de arrendamiento previamente reconocido
+                span Registro contable pago de arrendamiento previamente reconocido
               .tabla-scroll
                 table
                   thead
