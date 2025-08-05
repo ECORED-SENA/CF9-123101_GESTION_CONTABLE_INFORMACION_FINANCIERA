@@ -23,8 +23,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> identificar los conceptos clave sobre el reconocimiento, medición, amortización, y revelación de los activos intangibles y diferidos conforme a la NIC 38.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
@@ -61,7 +61,7 @@ export default {
           id: 2,
           texto:
             '¿Cuál de los siguientes es un ejemplo de un activo intangible identificable?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -92,7 +92,7 @@ export default {
           id: 3,
           texto:
             '¿Qué indica la NIC 38 respecto a la vida útil de un activo intangible?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -123,7 +123,7 @@ export default {
           id: 4,
           texto:
             '¿Qué método de medición inicial se aplica a un activo intangible adquirido separadamente?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -153,7 +153,7 @@ export default {
         {
           id: 5,
           texto: '¿Cuándo inicia la amortización de un activo intangible?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -216,7 +216,7 @@ export default {
           id: 7,
           texto:
             '¿Cuál es el criterio para elegir entre el modelo del costo o revaluación como política contable?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -246,7 +246,7 @@ export default {
         {
           id: 8,
           texto: '¿Qué representa el valor razonable de un activo?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -277,7 +277,7 @@ export default {
         {
           id: 9,
           texto: '¿Qué son los gastos pagados por anticipado?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -308,7 +308,7 @@ export default {
         {
           id: 10,
           texto: '¿Cuándo se da de baja un activo intangible?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -360,7 +360,7 @@ export default {
           id: 12,
           texto:
             'El método de amortización debe reflejar el patrón esperado de agotamiento del activo.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -381,7 +381,7 @@ export default {
           id: 13,
           texto:
             'Un cargo diferido puede considerarse activo si genera beneficios económicos futuros.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -402,7 +402,7 @@ export default {
           id: 14,
           texto:
             'Todos los gastos anticipados deben reconocerse siempre como gasto inmediato.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -423,7 +423,7 @@ export default {
           id: 15,
           texto:
             'El deterioro de un activo intangible disminuye su valor en libros.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
